@@ -9,6 +9,11 @@ import { mapState } from "vuex";
 import Post from "./Post";
 
 export default {
+  /**
+   * the values of title and body will be passed down to component
+   * @requires Post.vue
+   * @binding {posts} list of posts fetched from api + ones created by user
+   */
   components: {
     Post
   },

@@ -23,8 +23,7 @@
 <script>
 export default {
   /**
-   * the values of title and body will be passed down to you
-   * @slot menuContent
+   * the values of title and body will be passed down to component
    * @binding {title} title is currentTitle in state
    * @binding {body} content text of current Post
    */
