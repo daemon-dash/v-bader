@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostEditor.vue Shallow renders Post Editor 1`] = `
+<div class="container">
+  <div class="centered"><input type="text" placeholder="title" class="title"><br> <textarea rows="3" placeholder="content" class="content"></textarea> <br>
+    <div class="buttons"><button class="done">Done</button></div>
+  </div>
+</div>
+`;
