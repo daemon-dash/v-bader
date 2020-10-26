@@ -28,8 +28,9 @@ export default {
 <style scoped>
 .post {
   white-space: pre-line;
-  display: inline-block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   border: 1px solid grey;
   background-color: FloralWhite;
   padding: 10px;
