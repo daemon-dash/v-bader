@@ -12,9 +12,13 @@
 export default {
   props: ["post"],
   methods: {
+    // Fire when delete icon is clicked
+    // @arg The argument is a Post Object send to Vuex Store
     onDelete() {
       this.$store.dispatch("deletePost", this.post);
     },
+    // Fire when edit icon is clicked
+    // @arg The argument is a Post Object sent to Vuex Store
     onEdit() {
       this.$store.dispatch("editPost", this.post);
     }
